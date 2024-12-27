@@ -134,7 +134,8 @@
 }
 
 .hero-img {
-  width: 100%;
+  width: 90%;
+  height: 80%;
 }
 
 .delivered-meals {
@@ -382,7 +383,7 @@ strong {
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.6rem;
   padding: 1.6rem;
 }
@@ -659,4 +660,22 @@ strong {
 .footer-link:hover,
 .footer-link:active {
   color: #555;
+}
+
+.nav_head_link {
+  text-decoration: none;
+}
+
+.link_logo {
+  text-decoration: none;
+  color: #e67e22;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.hero-image-box {
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }

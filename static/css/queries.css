@@ -65,11 +65,17 @@
     grid-template-columns: 1fr;
     padding: 0 8rem;
     gap: 6.4rem;
+    /* height: 120vh; */
   }
 
   .hero-text-box,
-  .hero-image-box {
+  .-box {
     text-align: center;
+  }
+
+  .hero-image-box {
+    width: 70%;
+    display: none;
   }
 
   .delivered-meals {
@@ -199,6 +205,10 @@
     grid-template-columns: repeat(2, 1fr) !important;
   }
 
+  .hero-image-box {
+    width: 70%;
+  }
+
   .hero-text-box h1 {
     font-size: 3.2rem;
   }
@@ -298,6 +308,11 @@
     width: 80%;
   }
 
+  .hero-image-box {
+    display: block;
+    width: 100%;
+  }
+
   .heading-featured-in {
     font-size: 1.2rem;
   }
@@ -358,5 +373,11 @@
 
   .footer-link:link {
     font-size: 1.4rem;
+  }
+}
+
+@media screen and (min-width: 43.7rem) {
+  .link_logo {
+    font-size: 32px;
   }
 }
